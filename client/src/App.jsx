@@ -1,14 +1,14 @@
 import React from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
 
-import Login from './Pages/Login.jsx';
+import Login from './pages/Login.jsx';
 import Layout from './Components/Layout.jsx';
 
-import Studentlist from './Pages/Studentlist.jsx';
-import Studentform from './Pages/Studentform.jsx';
+import Studentlist from './pages/Studentlist.jsx';
+import Studentform from './pages/Studentform.jsx';
 
-import Subjectlist from './Pages/Subjectlist.jsx';
-import Subjectform from './Pages/Subjectform.jsx';
+import Subjectlist from './pages/Subjectlist.jsx';
+import Subjectform from './pages/Subjectform.jsx';
 
 const App = () => {
   return (
