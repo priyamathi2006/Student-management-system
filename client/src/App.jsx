@@ -22,7 +22,6 @@ const App = () => {
 
         {/* Redirect / to /students */}
         <Route index element={<Navigate to="/login" replace />} />
-        <Route index element={<Navigate to="/students" replace />} />
 
         {/* Student Routes */}
         <Route path="student" element={<Studentlist />} />
