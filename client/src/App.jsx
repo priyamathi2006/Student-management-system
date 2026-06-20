@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
 
-import Login from './pages/Login.jsx';
+import login from './pages/login.jsx';
 import Layout from './Components/Layout.jsx';
 
 import Studentlist from './pages/Studentlist.jsx';
@@ -14,8 +14,8 @@ const App = () => {
   return (
     <Routes>
 
-      {/* Login Route */}
-      <Route path="/login" element={<Login />} />
+      {/* login Route */}
+      <Route path="/login" element={<login />} />
 
       {/* Main Layout */}
       <Route path="/" element={<Layout />}>

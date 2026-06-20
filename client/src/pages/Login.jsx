@@ -1,13 +1,13 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const Login = () => {
+const login = () => {
   const navigate = useNavigate()
 
-  const handleLogin = (e) => {
+  const handlelogin = (e) => {
     e.preventDefault()
 
-    // Temporary Login
+    // Temporary login
     navigate('/students')
   }
 
@@ -20,11 +20,11 @@ const Login = () => {
             Student Management System
           </h1>
           <p className='text-gray-500 text-sm mt-2'>
-            Login to manage student records
+            login to manage student records
           </p>
         </div>
 
-        <form className='space-y-5' onSubmit={handleLogin}>
+        <form className='space-y-5' onSubmit={handlelogin}>
 
           <div>
             <label className='block text-sm font-semibold text-gray-700 mb-1'>
@@ -54,7 +54,7 @@ const Login = () => {
             type='submit'
             className='w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-300 cursor-pointer'
           >
-            Login
+            login
           </button>
 
         </form>
@@ -64,4 +64,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default login
