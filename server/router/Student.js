@@ -5,7 +5,7 @@ import {
     getOneStudent, 
     updateOneStudent, 
     deleteOneStudent 
-} from "../controller/student.js"; // Crucial: Lowercase 's' to match your controller folder file!
+} from "../controller/Student.js";
 
 const router = express.Router();
 

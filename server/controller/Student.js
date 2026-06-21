@@ -1,4 +1,4 @@
-import Student from "../Model/Student.js";
+import Student from "../model/Student.js";
 
 // 1. CREATE A NEW STUDENT
 export const createStudent = async (req, res) => {

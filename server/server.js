@@ -4,8 +4,8 @@ import dotenv from "dotenv";
 
 import connetedDB from "./config/db.js";
 
-import studentRoutes from "./Router/Student.js";
-import subjectRoutes from "./Router/Subject.js";
+import studentRoutes from "./router/Student.js";
+import subjectRoutes from "./router/Subject.js";
 
 dotenv.config();
 

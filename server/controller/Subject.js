@@ -1,4 +1,4 @@
-import Subject from "../Model/Subject.js";
+import Subject from "../model/subject.js";
 
 // Add Subject
 export const addSubject = async (req, res) => {
