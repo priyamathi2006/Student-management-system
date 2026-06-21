@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
-import api from "../Api/Api.js" // Verified lowercase file folder paths
+import api from "../api/api.js" // Verified lowercase file folder paths
 
 const Studentform = () => {
 

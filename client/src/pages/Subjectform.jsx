@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
-import api from "../Api/Api.js"
+import api from "../api/api.js"
 
 const Subjectform = () => {
 

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import api from '../Api/Api'
+import api from '../api/api'
 
 const Subjectlist = () => {
 
