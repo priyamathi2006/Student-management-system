@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
 
-import Login from './pages/login.jsx';
+import Login from './pages/Login.jsx';
 import Layout from './Components/Layout.jsx';
 
 import Studentlist from './pages/Studentlist.jsx';
