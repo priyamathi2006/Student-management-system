@@ -1,7 +1,14 @@
 import React from 'react'
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 
 const Navbar = () => {
+  const navigate = useNavigate()
+
+  const handleLogout = () => {
+    // Navigate to the login page on logout
+    navigate('/login')
+  }
+
   return (
     <nav className='bg-white border-b border-gray-200 shadow-sm sticky top-0 z-50'>
 
@@ -30,6 +37,7 @@ const Navbar = () => {
             </Link>
 
             <button
+              onClick={handleLogout}
               className='px-3.5 py-1.5 bg-red-600 hover:bg-red-700 text-white rounded text-xs font-semibold cursor-pointer transition-all'
             >
               Logout
