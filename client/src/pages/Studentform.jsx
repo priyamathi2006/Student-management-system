@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
-import api from "../api/api.js" // Verified lowercase file folder paths
+import api from "../Api/Api.js" // Verified lowercase file folder paths
 
 const Studentform = () => {
 
@@ -30,10 +30,10 @@ const Studentform = () => {
 
         try {
             if (editMode) {
-                // Axios will combine this into: http://localhost:3000/api/students/:id
+                // Axios will combine this into: http://localhost:5000/api/students/:id
                 await api.put(`/students/${id}`, formData)
             } else {
-                // Axios will combine this into: http://localhost:3000/api/students
+                // Axios will combine this into: http://localhost:5000/api/students
                 await api.post("/students", formData)
             }
 
